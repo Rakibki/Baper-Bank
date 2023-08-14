@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baper Bank</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fdf489119f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <head>
+      <h1 class="my-16 font-medium text-4xl text-center">
+        Webcome to <span class="font-bold text-blue-500">my baper Bank</span>
+      </h1>
+    </head>
+    <div id="root">
+      <section class="p-14 w-2/3 bg-gray-200 mx-auto shadow-lg rounded-xl">
+        <h1 class="text-2xl text-center font-semibold text-green-500 mb-6">
+          Place Log In
+        </h1>
+        <div class="flex flex-col space-y-3">
+          <input
+            class="w-full p-1.5 rounded-lg outline-none"
+            type="text"
+            placeholder="Enter Email"
+            id="email"
+          />
+          <input
+            class="w-full p-1.5 rounded-lg outline-none"
+            type="password"
+            placeholder="Enter password"
+            id="password"
+          />
+          <button id="submitBtn" class="p-2 text-gray-light-100 rounded-lg font-semibold  bg-green-400">Submit</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/logIn.js"></script>
+  </body>
+</html>
